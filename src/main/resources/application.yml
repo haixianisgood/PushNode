@@ -1,0 +1,17 @@
+appconfig:
+  rocketmq:
+    name-server: 127.0.0.1:9876
+    topic: PushSystem
+    group: PushGroup
+    tag: ${appconfig.push.name}
+
+  redis:
+    address: redis://127.0.0.1:6379
+
+  push:
+    name: node1
+    host: 127.0.0.1
+    port: 10086
+
+  zookeeper:
+    connect-string: 127.0.0.1:2181
